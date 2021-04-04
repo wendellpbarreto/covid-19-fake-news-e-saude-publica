@@ -1,0 +1,100 @@
+body,
+html {
+  --body-bg: #{map-get($theme-colors, "body-bg")};
+  --body-color: #{map-get($theme-colors, "body-color")};
+  --headings-color: #{map-get($theme-colors, "headings-color")};
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body-bg);
+  color: var(--body-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  .display-1,
+  .display-2,
+  .display-3,
+  .display-4 {
+    color: var(--headings-color);
+  }
+
+  &.following-teaching-page {
+    --body-bg: #{map-get($theme-2-colors, "body-bg")};
+    --body-color: #{map-get($theme-2-colors, "body-color")};
+
+    @each $color, $value in $theme-2-colors {
+      --#{$color}: #{$value};
+    }
+  }
+
+  &.checking-tools-page {
+    --body-bg: #{map-get($theme-3-colors, "body-bg")};
+    --body-color: #{map-get($theme-3-colors, "body-color")};
+
+    @each $color, $value in $theme-3-colors {
+      --#{$color}: #{$value};
+    }
+  }
+
+  &.references-page {
+    --body-bg: #{map-get($theme-4-colors, "body-bg")};
+    --body-color: #{map-get($theme-4-colors, "body-color")};
+
+    @each $color, $value in $theme-4-colors {
+      --#{$color}: #{$value};
+    }
+  }
+}
+
+::selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: $white;
+  background: $primary;
+  text-shadow: none;
+}
+
+b,
+strong {
+  font-weight: $font-weight-bold;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+.end-page-spacer {
+  width: 100%;
+  display: block;
+  height: 200px;
+}
+
+a {
+  color: inherit;
+
+  &,
+  i {
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+      color 0.3s ease-in-out;
+  }
+
+  &:hover {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
