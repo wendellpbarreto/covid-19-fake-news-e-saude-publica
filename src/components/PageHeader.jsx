@@ -5,8 +5,10 @@ import { Navbar, Nav } from "react-bootstrap";
 const PageHeader = ({ title, subtitle }) => {
   return (
     <>
-      <Navbar expand="lg" sticky="top">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar expand="lg">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto">
+          <i className="fal fa-bars"></i>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <Link href="/">
@@ -34,7 +36,7 @@ const PageHeader = ({ title, subtitle }) => {
       </Navbar>
 
       <header className="page-header">
-        <div className="content d-flex flex-column align-items-center justify-content-center">
+        <div className="container d-flex flex-column align-items-center justify-content-center">
           <h1 className="page-title font-weight-bold text-center">{title}</h1>
           {subtitle && (
             <h4 className="page-subtitle text-center">{subtitle}</h4>

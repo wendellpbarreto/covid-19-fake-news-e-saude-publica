@@ -118,7 +118,7 @@ const CheckingToolsPage = () => {
       ),
       media: (
         <>
-          <img src="/g1-actor.svg" alt="" />
+          <img src="/boatos-actor.svg" alt="" />
         </>
       ),
     },
@@ -140,7 +140,7 @@ const CheckingToolsPage = () => {
       ),
       media: (
         <>
-          <img src="/saude-sem-fake-news-actor.svg" alt="" />
+          <img src="/e-farsas-actor.svg" alt="" />
         </>
       ),
     },

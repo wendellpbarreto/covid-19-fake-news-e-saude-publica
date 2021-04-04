@@ -30,6 +30,9 @@ const TimeLineItem = ({
         {!disableHeader && (
           <div className="timeline-item-header mb-3">
             <Fade bottom>
+              <span className="timeline-item-pretitle h4 font-weight-bold d-block text-center text-uppercase w-100 m-0">
+                {pretitle}
+              </span>
               <span className="timeline-item-title display-4 font-weight-bold d-block text-center text-uppercase w-100 m-0">
                 {title}
               </span>
