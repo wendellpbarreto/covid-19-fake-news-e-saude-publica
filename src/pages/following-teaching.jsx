@@ -255,7 +255,14 @@ const FollowingTeachingPage = () => {
 
       <PageHeader
         title="COVID-19: Fake News e Saúde Pública"
-        subtitle="Sequência didática com metodologia Steam"
+        subtitle={
+          <>
+            Sequência didática com metodologia STEAM
+            <a href="#" target="_blank" className="anchor ml-2">
+              [baixar]
+            </a>
+          </>
+        }
       />
 
       <TimeLine items={timeLineItems} />

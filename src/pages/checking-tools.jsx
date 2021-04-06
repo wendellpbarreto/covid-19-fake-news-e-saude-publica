@@ -158,7 +158,18 @@ const CheckingToolsPage = () => {
 
       <PageHeader
         title="COVID-19: Fake News e Saúde Pública"
-        subtitle="Ferramentas de checagem de notícias"
+        subtitle={
+          <>
+            Ferramentas de checagem de notícias
+            <a
+              href="https://drive.google.com/file/d/1Yv0JLUp-Mg_Q1zL7yNL-2BasiTL2UrVY/view"
+              target="_blank"
+              className="anchor ml-2"
+            >
+              [baixar]
+            </a>
+          </>
+        }
       />
 
       <TimeLine items={timeLineItems} variant="3" />
