@@ -50,8 +50,8 @@ const TimeLineItem = ({
               >
                 <LinkIf
                   condition={link}
-                  href={link.url ? link.url : link}
-                  target={link.target ? link.target : "_blank"}
+                  href={link && link.url ? link.url : link}
+                  target={link && link.target ? link.target : "_blank"}
                 >
                   {subtitle}
                 </LinkIf>
@@ -77,8 +77,8 @@ const TimeLineItem = ({
             {link && (
               <a
                 className="timeline-item-btn"
-                href={link.url ? link.url : link}
-                target={link.target ? link.target : "_blank"}
+                href={link && link.url ? link.url : link}
+                target={link && link.target ? link.target : "_blank"}
               >
                 <i className="fal fa-link"></i>
               </a>
