@@ -55,6 +55,15 @@ html {
       --#{$color}: #{$value};
     }
   }
+
+  &.materials-page {
+    --body-bg: #{map-get($theme-5-colors, "body-bg")};
+    --body-color: #{map-get($theme-5-colors, "body-color")};
+
+    @each $color, $value in $theme-5-colors {
+      --#{$color}: #{$value};
+    }
+  }
 }
 
 ::selection {

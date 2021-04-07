@@ -148,6 +148,24 @@ $theme-4-colors: map-merge(
   $theme-4-colors
 );
 
+$theme-5-colors: () !default;
+$theme-5-colors: map-merge(
+  (
+    "primary": #bcd638,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "body-bg": #230b42,
+    "body-color": $white,
+    "headings-color": #cb88ff,
+  ),
+  $theme-5-colors
+);
+
 // Set a specific jump point for requesting color jumps
 $theme-color-interval: 8% !default;
 

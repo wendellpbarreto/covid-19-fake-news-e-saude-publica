@@ -62,16 +62,16 @@ const Home = () => {
       children: (
         <>
           <p>
-            No contexto da pandemia de COVID-19 muitas notícias falsas (
-            <i>Fake News</i>) estão sendo produzidas e divulgadas pelas redes
-            sociais, relacionadas a temas científicos, impactando negativamente
-            a saúde da população.
+            No contexto da pandemia de COVID-19 muitas notícias falsas (Fake
+            News) estão sendo produzidas e divulgadas pelas redes sociais,
+            relacionadas a temas científicos, impactando negativamente a saúde
+            da população.
           </p>
           <p>
             Nesse sentido a presente proposta buscar através do debate e da
             análise das caraterísticas desse tipo de notícia, demonstrar como o
             conhecimento científico pode ser utilizado para refutar informações
-            falsas, ressaltar a importância de combate-las, além de incluir a
+            falsas, ressaltar a importância de combatê-las, além de incluir a
             comunidade no debate a partir da divulgação de material informativo,
             que será produzido pelos estudantes.
           </p>
@@ -86,7 +86,7 @@ const Home = () => {
     {
       slug: "sequencia-didatica",
       subtitle: "Sequência didática",
-      link: "/sequencia-didatica",
+      link: { url: "/sequencia-didatica", target: "_self" },
       disableHeader: true,
       children: (
         <>
@@ -114,20 +114,20 @@ const Home = () => {
     {
       slug: "ferramentas-de-checagem",
       subtitle: "Ferramentas de Checagem",
-      link: "/ferramentas-de-checagem",
+      link: { url: "/ferramentas-de-checagem", target: "_self" },
       disableHeader: true,
       children: (
         <>
           <p>
-            Ao passo que as <i>Fake News</i> se tornaram mais comuns nos últimos
-            anos, muitas ferramentas online foram criadas para desmentir, checar
-            ou validar informações espalhadas pela internet e redes sociais.
+            Ao passo que as Fake News se tornaram mais comuns nos últimos anos,
+            muitas ferramentas online foram criadas para desmentir, checar ou
+            validar informações espalhadas pela internet e redes sociais.
           </p>
           <p>
             A maioria dos grandes jornais brasileiros, por exemplo, já conta com
             um espaço dedicado ao trabalho de conferir a veracidade de certos
             boatos que rodam por aí. A utilização dessas ferramentas, portanto,
-            se torna indispensável quando se trata do tema <i>Fake News</i>.
+            se torna indispensável quando se trata do tema Fake News.
           </p>
         </>
       ),
@@ -212,7 +212,7 @@ const Home = () => {
     <>
       <PageHeader
         title="COVID-19: Fake News e Saúde Pública"
-        subtitle="Lorem ipsum dolor sit amet"
+        subtitle="O impacto das falsas notícias no bem estar das pessoas"
       />
 
       <TimeLine items={timeLineItems} variant="1" />

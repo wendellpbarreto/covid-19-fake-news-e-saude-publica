@@ -82,6 +82,13 @@ const FollowingTeachingPage = () => {
               que permita rever crenças e opiniões quando fatos apurados as
               contradisserem.
             </p>
+            <p>
+              EM13CNT207 - Identificar, analisar e discutir vulnerabilidades
+              vinculadas às vivências e aos desafios contemporâneos aos quais as
+              juventudes estão expostas, considerando os aspectos físico,
+              psicoemocional e social, a fim de desenvolver e divulgar ações de
+              prevenção e de promoção da saúde e do bem-estar.
+            </p>
             <h5 class="font-weight-bold">Links úteis</h5>
             <ul style={{ listStyle: "none" }}>
               <li>
@@ -259,18 +266,81 @@ const FollowingTeachingPage = () => {
         subtitle: "Atividade 03 - Conectar",
         children: (
           <>
+            <h5 class="font-weight-bold">Objetivo</h5>
+            <ul>
+              <li>
+                Buscar soluções digitais criativas para diminuir a disseminação
+                de fake News.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Descrição da Atividade</h5>
+            <p>Tempo estimado: 2h/a</p>
+            <p>Momento 1: Pensando soluções</p>
+            <ul>
+              <li>
+                Montar grupos, discutir e pensar em soluções digitais criativas
+                para diminuir a disseminação de fake news no espaço de vivência;
+              </li>
+            </ul>
+            <p>Momento 2: Definindo os recursos tecnológicos</p>
+            <ul>
+              <li>
+                Cada grupo deverá escolher as estratégias e a ferramenta
+                tecnológica para realizar as ações de conscientização sobre a
+                disseminação de notícias falsas;
+              </li>
+            </ul>
+            <p>Momento 3: Tutoria</p>
+            <ul>
+              <li>
+                Ao definirem as estratégias (vídeo, podcast, banner,
+                infográfico, postagens em redes sociais, etc.), os estudantes
+                podem dialogar com os professores sobre ferramentas tecnológicas
+                (6) que possibilitem a construção dos seus materiais digitais de
+                conscientização;
+              </li>
+              <li>
+                Os estudantes podem neste momento escolher seu professor tutor,
+                o qual irá orientá-los na apropriação técnica da ferramenta
+                tecnológica escolhida.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Habilidades</h5>
             <p>
-              <strong class="d-block">Objetivo</strong>
-              texto texto
+              EM13LGG701 - Explorar tecnologias digitais da informação e
+              comunicação (TDIC), compreendendo seus princípios e
+              funcionalidades, e utilizá-las de modo ético, criativo,
+              responsável e adequado a práticas de linguagem em diferentes
+              contextos.
             </p>
             <p>
-              <strong class="d-block">Atividade</strong>
-              texto texto
+              EM13LGG703 - Utilizar diferentes linguagens, mídias e ferramentas
+              digitais em processos de produção coletiva, colaborativa e
+              projetos autorais em ambientes digitais.
             </p>
-            <p>
-              <strong class="d-block">Habilidades</strong>
-              texto texto
-            </p>
+            <h5 class="font-weight-bold">Links úteis</h5>
+            <ul style={{ listStyle: "none" }}>
+              <li>
+                (1) Fake do limão:{" "}
+                <a
+                  href="http://bit.ly/3mlPxPgFakedolimão"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/3mlPxPgFakedolimão
+                </a>
+              </li>
+              <li>
+                (2) Quizizz:{" "}
+                <a
+                  href="http://bit.ly/2Pyqe0gQuiz"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/2Pyqe0gQuiz
+                </a>
+              </li>
+            </ul>
           </>
         ),
       },
@@ -305,18 +375,73 @@ const FollowingTeachingPage = () => {
         subtitle: "Atividade 04 - Criar",
         children: (
           <>
+            <h5 class="font-weight-bold">Objetivo</h5>
+            <ul>
+              <li>
+                Produzir material educativo com recursos tecnológicos para
+                combater a disseminação das Fake News.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Descrição da Atividade</h5>
+            <p>Tempo estimado: 4h/a</p>
+            <p>Momento 1: Oficina</p>
+            <ul>
+              <li>
+                Os grupos se organizam e estudam, junto aos seus tutores, sobre
+                a utilização das ferramentas tecnológicas escolhidas (tutoriais
+                (6), orientações, testes, etc.) para construção dos materiais
+                digitais de conscientização;
+              </li>
+            </ul>
+            <p>Momento 2: Construção</p>
+            <ul>
+              <li>
+                Cada grupo produzirá, com base na estratégia escolhida e sob
+                supervisão do professor tutor, seus materiais digitais de
+                conscientização sobre a disseminação de notícias falsas.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Habilidades</h5>
             <p>
-              <strong class="d-block">Objetivo</strong>
-              texto texto
+              EM13LGG701 - Explorar tecnologias digitais da informação e
+              comunicação (TDIC), compreendendo seus princípios e
+              funcionalidades, e utilizá-las de modo ético, criativo,
+              responsável e adequado a práticas de linguagem em diferentes
+              contextos.
             </p>
             <p>
-              <strong class="d-block">Atividade</strong>
-              texto texto
+              EM13LGG703 - Utilizar diferentes linguagens, mídias e ferramentas
+              digitais em processos de produção coletiva, colaborativa e
+              projetos autorais em ambientes digitais.
             </p>
             <p>
-              <strong class="d-block">Habilidades</strong>
-              texto texto
+              EM13LP17 - Elaborar roteiros para a produção de vídeos variados
+              (vlog, videoclipe, videominuto, documentário etc.), apresentações
+              teatrais, narrativas multimídia e transmídia, podcasts, playlists
+              comentadas etc., para ampliar as possibilidades de produção de
+              sentidos e engajar-se em práticas autorais e coletivas.
             </p>
+            <p>
+              EM13LP18 - Utilizar softwares de edição de textos, fotos, vídeos e
+              áudio, além de ferramentas e ambientes colaborativos para criar
+              textos e produções multissemióticas com finalidades diversas,
+              explorando os recursos e efeitos disponíveis e apropriando-se de
+              práticas colaborativas de escrita, de construção coletiva do
+              conhecimento e de desenvolvimento de projetos.
+            </p>
+            <h5 class="font-weight-bold">Links úteis</h5>
+            <ul style={{ listStyle: "none" }}>
+              <li>
+                (6) Ferramentas digitais e tutoriais:{" "}
+                <a
+                  href="http://bit.ly/2PY9Wh2DigitaisTutoriais"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/2PY9Wh2DigitaisTutoriais
+                </a>
+              </li>
+            </ul>
           </>
         ),
       },
@@ -347,18 +472,69 @@ const FollowingTeachingPage = () => {
         subtitle: "Atividade 05 - Refletir",
         children: (
           <>
+            <h5 class="font-weight-bold">Objetivo</h5>
+            <ul>
+              <li>
+                Refletir e avaliar o processo de criação do material digital e
+                de seu impacto na sociedade.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Descrição da Atividade</h5>
+            <p>Tempo estimado: 1h/a</p>
+            <p>Momento 1: Divulgação</p>
+            <ul>
+              <li>
+                Divulgar os materiais de conscientização construídos para que a
+                comunidade escolar possa ter acesso e reflita sobre os impactos
+                das fake news na sociedade;
+              </li>
+            </ul>
+            <p>Momento 2: Avaliação</p>
+            <ul>
+              <li>
+                Discussão dialogada: avaliação sobre o trabalho realizados a
+                partir das produções. Relatos dos alunos sobre resultados das
+                produções no seu contexto e comunidade;
+              </li>
+              <li>
+                Aplicação da ferramenta rubrica para avaliação geral do projeto,
+                tanto por parte dos estudantes - autoavaliação -, quanto por
+                parte do professor - avaliação da turma (7).
+              </li>
+            </ul>
+
+            <h5 class="font-weight-bold">Habilidades</h5>
             <p>
-              <strong class="d-block">Objetivo</strong>
-              texto texto
+              EM13LGG702 - Avaliar o impacto das tecnologias digitais da
+              informação e comunicação (TDIC) na formação do sujeito e em suas
+              práticas sociais, para fazer uso crítico dessa mídia em práticas
+              de seleção, compreensão e produção de discursos em ambiente
+              digital.
             </p>
             <p>
-              <strong class="d-block">Atividade</strong>
-              texto texto
+              EM13CNT302 - Comunicar, para públicos variados, em diversos
+              contextos, resultados de análises, pesquisas e/ou experimentos,
+              elaborando e/ou interpretando textos, gráficos, tabelas, símbolos,
+              códigos, sistemas de classificação e equações, por meio de
+              diferentes linguagens, mídias, tecnologias digitais de informação
+              e comunicação (TDIC), de modo a participar e/ou promover debates
+              em torno de temas científicos e/ou tecnológicos de relevância
+              sociocultural e ambiental.
             </p>
-            <p>
-              <strong class="d-block">Habilidades</strong>
-              texto texto
-            </p>
+
+            <h5 class="font-weight-bold">Links úteis</h5>
+            <ul style={{ listStyle: "none" }}>
+              <li>
+                (7) Modelos de rubrica para avaliação:{" "}
+                <a
+                  href="http://bit.ly/3mj3KMZRubricaAvaliação"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/3mj3KMZRubricaAvaliação
+                </a>
+              </li>
+            </ul>
           </>
         ),
       },

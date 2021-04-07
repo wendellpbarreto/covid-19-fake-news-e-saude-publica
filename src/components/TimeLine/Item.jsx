@@ -48,7 +48,11 @@ const TimeLineItem = ({
                 }`}
                 onClick={() => details && onOpenDetails(details)}
               >
-                <LinkIf condition={link} href={link}>
+                <LinkIf
+                  condition={link}
+                  href={link.url ? link.url : link}
+                  target={link.target ? link.target : "_blank"}
+                >
                   {subtitle}
                 </LinkIf>
               </h2>
@@ -71,7 +75,11 @@ const TimeLineItem = ({
               </div>
             )}
             {link && (
-              <a className="timeline-item-btn" href={link} target="_blank">
+              <a
+                className="timeline-item-btn"
+                href={link.url ? link.url : link}
+                target={link.target ? link.target : "_blank"}
+              >
                 <i className="fal fa-link"></i>
               </a>
             )}

@@ -210,3 +210,21 @@
     }
   }
 }
+
+.timeline.timeline-theme-5 {
+  .timeline-item {
+    .timeline-item-text {
+      border: none;
+    }
+
+    .timeline-item-divider {
+      background-color: #79ffa0;
+    }
+
+    .timeline-item-pretitle,
+    .timeline-item-title,
+    .timeline-item-subtitle {
+      color: $white;
+    }
+  }
+}

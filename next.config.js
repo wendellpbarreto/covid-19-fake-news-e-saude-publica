@@ -10,6 +10,10 @@ module.exports = {
         destination: "/checking-tools",
       },
       {
+        source: "/materiais-e-tutoriais",
+        destination: "/materials",
+      },
+      {
         source: "/referencias",
         destination: "/references",
       },

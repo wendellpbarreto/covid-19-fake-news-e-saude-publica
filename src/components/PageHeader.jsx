@@ -26,6 +26,11 @@ const PageHeader = ({ title, subtitle }) => {
                 Ferramentas de Checagem
               </Nav.Link>
             </Link>
+            <Link href="/materiais-e-tutoriais">
+              <Nav.Link as="a" href="/materiais-e-tutoriais">
+                Materiais & Tutoriais
+              </Nav.Link>
+            </Link>
             <Link href="/referencias">
               <Nav.Link as="a" href="/referencias">
                 Referências
