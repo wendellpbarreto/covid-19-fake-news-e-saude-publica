@@ -46,6 +46,10 @@ const Home = () => {
         lattes:
           "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4498357Y2",
       },
+      {
+        name: "Ricardo Wagner da P. Oliveira, Matemático",
+        lattes: "http://lattes.cnpq.br/3674680088104212",
+      },
     ],
     "name"
   );
@@ -58,11 +62,18 @@ const Home = () => {
       children: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            ultricies leo in blandit imperdiet. Nunc lacus dolor, ullamcorper
-            vitae pharetra sit amet, fermentum id nisi. Sed egestas volutpat
-            suscipit. Mauris gravida elit nec turpis suscipit interdum. Nam
-            maximus orci tortor, eu volutpat sem fermentum ut.
+            No contexto da pandemia de COVID-19 muitas notícias falsas (
+            <i>Fake News</i>) estão sendo produzidas e divulgadas pelas redes
+            sociais, relacionadas a temas científicos, impactando negativamente
+            a saúde da população.
+          </p>
+          <p>
+            Nesse sentido a presente proposta buscar através do debate e da
+            análise das caraterísticas desse tipo de notícia, demonstrar como o
+            conhecimento científico pode ser utilizado para refutar informações
+            falsas, ressaltar a importância de combate-las, além de incluir a
+            comunidade no debate a partir da divulgação de material informativo,
+            que será produzido pelos estudantes.
           </p>
         </>
       ),
@@ -80,11 +91,17 @@ const Home = () => {
       children: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            ultricies leo in blandit imperdiet. Nunc lacus dolor, ullamcorper
-            vitae pharetra sit amet, fermentum id nisi. Sed egestas volutpat
-            suscipit. Mauris gravida elit nec turpis suscipit interdum. Nam
-            maximus orci tortor, eu volutpat sem fermentum ut.
+            A organização da sequência foi pensada para estudantes da 1ª Série
+            do Ensino Médio, de acordo com as competências e habilidades das
+            áreas de Ciências da Natureza e suas Tecnologias e de Linguagens e
+            suas Tecnologias de acordo com a BNCC (Base Nacional Comum
+            Curricular).
+          </p>
+          <p>
+            As atividades estão baseadas nas tendências de inovação em
+            Tecnologias Educacionais com práticas e tecnologias para impacto em
+            curto prazo STEAM (Ciência, Tecnologia, Artes e Matemática) e BYOD
+            (Bring Your Own Device).
           </p>
         </>
       ),
@@ -102,11 +119,15 @@ const Home = () => {
       children: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            ultricies leo in blandit imperdiet. Nunc lacus dolor, ullamcorper
-            vitae pharetra sit amet, fermentum id nisi. Sed egestas volutpat
-            suscipit. Mauris gravida elit nec turpis suscipit interdum. Nam
-            maximus orci tortor, eu volutpat sem fermentum ut.
+            Ao passo que as <i>Fake News</i> se tornaram mais comuns nos últimos
+            anos, muitas ferramentas online foram criadas para desmentir, checar
+            ou validar informações espalhadas pela internet e redes sociais.
+          </p>
+          <p>
+            A maioria dos grandes jornais brasileiros, por exemplo, já conta com
+            um espaço dedicado ao trabalho de conferir a veracidade de certos
+            boatos que rodam por aí. A utilização dessas ferramentas, portanto,
+            se torna indispensável quando se trata do tema <i>Fake News</i>.
           </p>
         </>
       ),
@@ -142,7 +163,7 @@ const Home = () => {
           <>
             <p>
               <strong class="d-block">Orientadores</strong>
-              <u>
+              <ul>
                 <li>
                   <a
                     href="http://www.google.com/url?q=http%3A%2F%2Flattes.cnpq.br%2F0601161335088804&sa=D&sntz=1&usg=AFQjCNG8mSPOuWSwc94_S5oF20ZzhVorog"
@@ -167,7 +188,7 @@ const Home = () => {
                     Prof. Dr. Dennys Leite Maia
                   </a>
                 </li>
-              </u>
+              </ul>
             </p>
             <p>
               <strong class="d-block">Criadores</strong>

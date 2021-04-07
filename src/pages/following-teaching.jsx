@@ -33,7 +33,7 @@ const FollowingTeachingPage = () => {
           <strong>Como?</strong>
           <p>
             Roda de conversa; exploração da problemática; provocações; quiz de{" "}
-            <i>fake news</i>
+            Fake News
           </p>
         </>
       ),
@@ -47,18 +47,64 @@ const FollowingTeachingPage = () => {
         subtitle: "Atividade 01 - Investigar",
         children: (
           <>
+            <h5 class="font-weight-bold">Objetivo</h5>
+            <ul>
+              <li>Identificar o que é fato e o que é fake;</li>
+              <li>
+                Despertar os conhecimentos prévios dos alunos sobre a temática.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Descrição da Atividade</h5>
+            <p>Tempo estimado: 1h/a</p>
+            <p>Momento 1: Roda de conversa</p>
+            <ul>
+              <li>
+                Discutir Fake News no contexto da pandemia, partindo da notícia
+                falsa do limão alcalino (1).
+              </li>
+            </ul>
+            <p>Momento 2: Quiz das Fake News</p>
+            <ul>
+              <li>
+                Realizar um jogo de perguntas e respostas através do aplicativo
+                Quizizz (2), para que o aluno possa identificar, com base nos
+                seus conhecimentos prévios, quais daquelas notícias são reais ou
+                falsas.
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Habilidades</h5>
             <p>
-              <strong class="d-block">Objetivo</strong>
-              Identificar o conteúdo científico e sua relação com as fake news
+              EM13LP40 - Analisar o fenômeno da pós-verdade – discutindo as
+              condições e os mecanismos de disseminação de Fake News e também
+              exemplos, causas e consequências desse fenômeno e da prevalência
+              de crenças e opiniões sobre fatos –, de forma a adotar atitude
+              crítica em relação ao fenômeno e desenvolver uma postura flexível
+              que permita rever crenças e opiniões quando fatos apurados as
+              contradisserem.
             </p>
-            <p>
-              <strong class="d-block">Atividade</strong>
-              texto texto
-            </p>
-            <p>
-              <strong class="d-block">Habilidades</strong>
-              texto texto
-            </p>
+            <h5 class="font-weight-bold">Links úteis</h5>
+            <ul style={{ listStyle: "none" }}>
+              <li>
+                (1) Fake do limão:{" "}
+                <a
+                  href="http://bit.ly/3mlPxPgFakedolimão"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/3mlPxPgFakedolimão
+                </a>
+              </li>
+              <li>
+                (2) Quizizz:{" "}
+                <a
+                  href="http://bit.ly/2Pyqe0gQuiz"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/2Pyqe0gQuiz
+                </a>
+              </li>
+            </ul>
           </>
         ),
       },
@@ -71,13 +117,11 @@ const FollowingTeachingPage = () => {
       children: (
         <>
           <strong>O quê?</strong>
-          <p>
-            Padrões que caracterizam <i>fake news</i>
-          </p>
+          <p>Padrões que caracterizam Fake News</p>
           <strong>Como?</strong>
           <p>
-            Identificar conteúdo científico e sua relação com as{" "}
-            <i>fake news</i>; realizar experimento do repolho roxo
+            Identificar conteúdo científico e sua relação com as Fake News;
+            realizar experimento do repolho roxo
           </p>
         </>
       ),
@@ -91,25 +135,100 @@ const FollowingTeachingPage = () => {
         subtitle: "Atividade 02 - Descobrir",
         children: (
           <>
+            <h5 class="font-weight-bold">Objetivo</h5>
+            <ul>
+              <li>Conhecer as características de uma Fake News;</li>
+              <li>
+                Utilizar fontes confiáveis de informação científica durante a
+                prática de pesquisa de dados e informações (agravos, doenças e
+                saúde pública);
+              </li>
+              <li>
+                Reconhecer as Tecnologias mais utilizadas para disseminação de
+                Fake News;
+              </li>
+              <li>Conhecer as Tecnologias de validação de Fake News;</li>
+              <li>Conceituar substâncias ácidas e básicas, escala de pH.</li>
+            </ul>
+            <h5 class="font-weight-bold">Descrição da Atividade</h5>
+            <p>Tempo estimado: 2h/a</p>
+            <p>Momento 1: Desvendando as Fake News</p>
+            <ul>
+              <li>
+                Discutir os padrões que caracterizam as fakes news (retomar o
+                quiz e a notícia falsa do limão), e refletir sobre os critérios
+                dos alunos para definir as notícias como falsas ou verdadeiras;
+              </li>
+              <li>
+                Estimular os estudantes a buscar, por meio de seus próprios
+                dispositivos, ferramentas de pesquisa online que possibilitem a
+                identificação da veracidade das notícias do quiz (3).
+              </li>
+            </ul>
+            <p>Momento 2: Experimento</p>
+            <ul>
+              <li>
+                Identificar, através de uma experiência científica, as
+                propriedades químicas do limão (4);
+              </li>
+              <li>
+                Refletir acerca dos possíveis danos à saúde pública que a fake
+                news do limão pode causar - brainstorm com ferramenta online
+                (Answer Garden ou Mentimeter) (5);
+              </li>
+            </ul>
+            <h5 class="font-weight-bold">Habilidades</h5>
             <p>
-              <strong class="d-block">Objetivo</strong>
-              texto texto
+              EM13LGG702 - Avaliar o impacto das tecnologias digitais da
+              informação e comunicação (TDIC) na formação do sujeito e em suas
+              práticas sociais, para fazer uso crítico dessa mídia em práticas
+              de seleção, compreensão e produção de discursos em ambiente
+              digital.
             </p>
             <p>
-              <strong class="d-block">Atividade</strong>
-              texto texto
+              EM13LGG704 - Apropriar-se criticamente de processos de pesquisa e
+              busca de informação, por meio de ferramentas e dos novos formatos
+              de produção e distribuição do conhecimento na cultura de rede.
             </p>
             <p>
-              <strong class="d-block">Habilidades</strong>
-              texto texto
+              EM13CNT205 - Interpretar resultados e realizar previsões sobre
+              atividades experimentais, fenômenos naturais e processos
+              tecnológicos, com base nas noções de probabilidade e incerteza,
+              reconhecendo os limites explicativos das ciências.
             </p>
-            <p>
-              <strong class="d-block">Links úteis</strong>
-              <a href="/ferramentas-de-checagem" target="_blank">
-                <i className="fal fa-link mr-2"></i>
-                Ferramentas de checagem
-              </a>
-            </p>
+            <h5 class="font-weight-bold">Links úteis</h5>
+            <ul style={{ listStyle: "none" }}>
+              <li>
+                (3) Sites de checagem:{" "}
+                <a
+                  href="http://bit.ly/3fCLTzcChecagem"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/3fCLTzcChecagem
+                </a>
+              </li>
+              <li>
+                (4) Experimento:{" "}
+                <a
+                  href="http://bit.ly/3cNJOhUExperimento"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/3cNJOhUExperimento
+                </a>
+              </li>
+              <li>
+                (5) Ferramentas de braistorm online:{" "}
+                <a
+                  href="http://bit.ly/3fFzTwHBraistorm"
+                  target="_blank"
+                  className="font-weight-bold"
+                >
+                  http://bit.ly/3fFzTwHBraistorm
+                </a>
+              </li>
+            </ul>
           </>
         ),
       },
@@ -126,7 +245,7 @@ const FollowingTeachingPage = () => {
           <strong>Como?</strong>
           <p>
             Montar grupos; discutir e pensar em soluções criativas para diminuir
-            a disseminação de <i>fake news</i> no espaço de vivência
+            a disseminação de Fake News no espaço de vivência
           </p>
         </>
       ),
@@ -165,8 +284,8 @@ const FollowingTeachingPage = () => {
         <>
           <strong>O quê?</strong>
           <p>
-            Material direcionado a comunidade com informações sobre as{" "}
-            <i>fake news</i> e o impacto na saúde pública
+            Material direcionado a comunidade com informações sobre as Fake News
+            e o impacto na saúde pública
           </p>
           <strong>Como?</strong>
           <p>
