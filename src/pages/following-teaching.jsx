@@ -561,7 +561,11 @@ const FollowingTeachingPage = () => {
         subtitle={
           <>
             Sequência didática com metodologia STEAM
-            <a href="#" target="_blank" className="anchor ml-2">
+            <a
+              href="http://bit.ly/SDfakeesaude"
+              target="_blank"
+              className="anchor ml-2"
+            >
               [baixar]
             </a>
           </>

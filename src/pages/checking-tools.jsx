@@ -162,7 +162,7 @@ const CheckingToolsPage = () => {
           <>
             Ferramentas de checagem de notícias
             <a
-              href="https://drive.google.com/file/d/1Yv0JLUp-Mg_Q1zL7yNL-2BasiTL2UrVY/view"
+              href="http://bit.ly/3fCLTzcChecagem"
               target="_blank"
               className="anchor ml-2"
             >
