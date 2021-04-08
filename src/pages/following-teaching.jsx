@@ -203,6 +203,15 @@ const FollowingTeachingPage = () => {
               tecnológicos, com base nas noções de probabilidade e incerteza,
               reconhecendo os limites explicativos das ciências.
             </p>
+            <p>
+              EM13CNT303 - Interpretar textos de divulgação científica que
+              tratem de temáticas das Ciências da Natureza, disponíveis em
+              diferentes mídias, considerando a apresentação dos dados, tanto na
+              forma de textos como em equações, gráficos e/ou tabelas, a
+              consistência dos argumentos e a coerência das conclusões, visando
+              construir estratégias de seleção de fontes confiáveis de
+              informações.
+            </p>
             <h5 class="font-weight-bold">Links úteis</h5>
             <ul style={{ listStyle: "none" }}>
               <li>
@@ -318,26 +327,25 @@ const FollowingTeachingPage = () => {
               digitais em processos de produção coletiva, colaborativa e
               projetos autorais em ambientes digitais.
             </p>
+            <p>
+              EM13CNT303 - Interpretar textos de divulgação científica que
+              tratem de temáticas das Ciências da Natureza, disponíveis em
+              diferentes mídias, considerando a apresentação dos dados, tanto na
+              forma de textos como em equações, gráficos e/ou tabelas, a
+              consistência dos argumentos e a coerência das conclusões, visando
+              construir estratégias de seleção de fontes confiáveis de
+              informações.
+            </p>
             <h5 class="font-weight-bold">Links úteis</h5>
             <ul style={{ listStyle: "none" }}>
               <li>
-                (1) Fake do limão:{" "}
+                (6) Ferramentas digitais e tutoriais:{" "}
                 <a
-                  href="http://bit.ly/3mlPxPgFakedolimão"
+                  href="http://bit.ly/2PY9Wh2DigitaisTutoriais"
                   target="_blank"
                   className="font-weight-bold"
                 >
-                  http://bit.ly/3mlPxPgFakedolimão
-                </a>
-              </li>
-              <li>
-                (2) Quizizz:{" "}
-                <a
-                  href="http://bit.ly/2Pyqe0gQuiz"
-                  target="_blank"
-                  className="font-weight-bold"
-                >
-                  http://bit.ly/2Pyqe0gQuiz
+                  http://bit.ly/2PY9Wh2DigitaisTutoriais
                 </a>
               </li>
             </ul>
