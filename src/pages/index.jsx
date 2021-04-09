@@ -50,6 +50,10 @@ const Home = () => {
         name: "Ricardo Wagner da P. Oliveira, Matemático",
         lattes: "http://lattes.cnpq.br/3674680088104212",
       },
+      {
+        name: "Maria da Conceição Araújo Moreno",
+        lattes: "http://lattes.cnpq.br/2619341666625630",
+      },
     ],
     "name"
   );
